@@ -1,0 +1,26 @@
+@import "./layout.scss";
+
+.bg-light{
+  background: $light-color;
+}
+.bg-dark{
+  background: $dark-color;
+}
+.icons-light{
+  font-size: 20px;
+  color: $light-color;
+}
+.icons-dark{
+  color: $dark-color;
+}
+.title{
+  font-size: $lg;
+  font-weight: bold;
+  font-family: $title-font;
+}
+.pointer{
+  cursor: pointer;
+}
+.card{
+  border-radius: 10px;
+}

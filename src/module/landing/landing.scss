@@ -1,0 +1,20 @@
+@import "../../assets/styles/theme";
+
+main.landing{
+  flex: 1;
+  height: 100vh;
+  background: $primary-color;
+  box-sizing: border-box;
+  .navbar{
+    height: 10vh;
+    box-sizing: border-box;
+  }
+  .content-area{
+    box-sizing: border-box;
+    .secondary-nav{
+
+    }
+    .content{
+    }
+  }
+}
