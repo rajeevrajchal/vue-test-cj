@@ -13,6 +13,18 @@
 .icons-dark{
   color: $dark-color;
 }
+.close-icon{
+  &:hover{
+    color: $dark-color;
+  }
+}
+.icon-button{
+  i {
+    &:hover{
+      color: $dark-color;
+    }
+  }
+}
 .title{
   font-size: $lg;
   font-weight: bold;

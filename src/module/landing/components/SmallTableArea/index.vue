@@ -1,16 +1,17 @@
 <template>
   <div class="content-small-view flex-1">
-    <SecondaryNav :isLargeView="false"/>
-    <div class="content-value card bg-light h-100 mt-md">
+    <SmallTANav/>
+    <div class="content-value card bg-light h-100 mt-md pl-md pt-md pr-md">
       <p>value</p>
     </div>
   </div>
 </template>
 
 <script>
-import SecondaryNav from "@/module/landing/container/SecondaryNav";
+import SmallTANav from "@/module/landing/components/SmallTableArea/container/SmallTANav";
+
 export default {
-name: "SmallTableArea",
-  components: {SecondaryNav}
+  name: "SmallTableArea",
+  components: {SmallTANav},
 }
 </script>
