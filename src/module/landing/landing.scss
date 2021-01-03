@@ -18,3 +18,11 @@ main.landing{
     }
   }
 }
+@media (max-width: 768px) {
+  .landing{
+    height: 100% !important;
+    .content-small-view{
+      margin-top: 27px !important;
+    }
+  }
+}
